@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://www.spedion.de">
+    <img src="https://www.spedion.de/fileadmin/_processed_/d/f/csm_Spedion_Logo_3ae2d91d48.png" alt="Spedion Logo" width="180"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.lis.eu/winsped/">
+    <img src="https://www.lis.eu/fileadmin/_processed_/c/8/csm_LIS_Logo_RGB_4f23d1aa30.png" alt="LIS WinSped Logo" width="180"/>
+  </a>
+</p>
 
 
 # Spedion Truck Import
