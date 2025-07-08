@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://www.spedion.de/fileadmin/_processed_/d/f/csm_Spedion_Logo_3ae2d91d48.png" alt="Spedion Logo" width="180"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://www.chr-carstensen.de/files/logo.png" alt="LIS/Chr.Carstensen Logo" width="180"/>
+</p>
+
 # Spedion Truck Import
 
 This project provides an automated way to **transfer newly added trucks** from the **WinSped** logistics system to the **Spedion** telematics platform.
