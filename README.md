@@ -1,26 +1,53 @@
 # Spedion Truck Import
 
-This tool automates the import of newly registered trucks into the SPEDION telematics system using their SOAP API.
+This project provides an automated way to **transfer newly added trucks** from the **WinSped** logistics system to the **Spedion** telematics platform.
+
+## Purpose
+
+To ensure that vehicle information entered into WinSped is automatically and correctly registered in Spedion — reducing manual effort and synchronization errors.
+
+This script is designed for use by logistics and IT personnel who manage fleet registration across both platforms.
 
 ## Features
 
-- Connects to MS SQL Server (WinSped)
-- Selects newly registered trucks
-- Sends structured XML payload to SPEDION SOAP service
-- Avoids duplicates using a local log file
-- Supports German and English environment
+- Connects to WinSped MS SQL database
+- Retrieves newly added trucks (on current date)
+- Sends truck information to Spedion SOAP API
+- Tracks processed trucks to avoid duplicates
 
-## Configuration
+## Requirements
 
-1. Set your DB credentials and SOAP authentication via environment variables or secure config.
-2. Create or provide `LIST_PATCH.txt` to track processed vehicles.
+- Python 3.9+
+- Access to WinSped MS SQL database
+- Valid Spedion API credentials
 
-## Run
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the script with Python:
 
 ```bash
 python main.py
 ```
 
+You can configure paths and credentials directly in the script (`main.py`) or externalize them later.
+
+## Notes
+
+- Vehicles already sent to Spedion are tracked using a `LIST_PATCH.txt` file to prevent duplicates.
+- Ensure firewall and access permissions allow database and API communication.
+
 ## License
 
-MIT License
+This project is intended for internal automation. Licensing TBD.
+
+---
+
+**Maintained by:** Chr. Carstensen Logistics
+
+---
