@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://www.spedion.de/fileadmin/_processed_/d/f/csm_Spedion_Logo_3ae2d91d48.png" alt="Spedion Logo" width="180"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://www.chr-carstensen.de/files/logo.png" alt="LIS/Chr.Carstensen Logo" width="180"/>
+  <img src="https://www.lis.eu/fileadmin/_processed_/c/8/csm_LIS_Logo_RGB_4f23d1aa30.png" alt="LIS WinSped Logo" width="180"/>
 </p>
 
 # Spedion Truck Import
