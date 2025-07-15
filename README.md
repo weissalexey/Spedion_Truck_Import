@@ -52,3 +52,7 @@ This project is intended for internal automation. Licensing TBD.
 **Maintained by:** Chr. Carstensen Logistics
 
 ---
+
+[![LinkedIn](https://example.com/linkedin-icon.png)](https://www.linkedin.com/in/alex-weiss-a6483417b)
+
+[Spedion_Driver_Uploader](https://github.com/weissalexey/Spedion_Driver_Uploader/edit/main/README.md)
